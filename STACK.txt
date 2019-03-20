@@ -1,0 +1,35 @@
+
+npm install -g @vue/cli
+vue create air 
+-> default
+cd air
+(firebase login)
+firebase init
+-> [Hosting,DataBase, [create a new project] , Single-page App:No, Overwirte:No]
+npm i vue-router vuex
+npm i bootstrap-vue bootstrap
+npm install --save axios
+npm i --save-dev expose-loader(외부)
+npm i --save jqeury
+npm i --save-dev style-loader css-loader
+
+1. 기획자 -> ui /ux 상세 설계서
+ - 로그인
+ - 미세먼지 데이터 표시
+2. Vue, PWA
+ - Bootstrap : ui
+ - Veutify
+ - Bulma
+3. 페이지 라우팅 설계 
+4. 해당 페이지 라우팅의 컴포넌트 설계
+5. 구현
+
+-----------------------------
+1. 로그인, 
+2. 미세먼지 데이터 표시
+-----------------------------
+1. 로그인
+2. 미세먼지 데이터 호출을 위한 절차
+ A) html5 geolocation
+ B) geolocation -> 권역 위치로 변환 (naver maps api)
+ c) 권역에 해당하는 미세먼지 데이터 호출 (서울시 공공 데이터)
