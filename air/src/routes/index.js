@@ -19,10 +19,10 @@ export default new VueRouter({
             path: '/main',
             component: () => import('../views/mainView.vue'),
         },
-        {
-            path: '/sign',
-            component: () => import('../views/signUpView.vue'),
-        },
+        // {
+        //     path: '/sign',
+        //     component: () => import('../views/signUpView.vue'),
+        // },
         { 
             path: '*', 
             component: NotFound, 
