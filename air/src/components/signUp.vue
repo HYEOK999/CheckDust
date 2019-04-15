@@ -1,15 +1,15 @@
 <template>
-  <div id="air">
-    <router-view></router-view>
-  </div>
+    <div>
+        signUp!
+    </div>
 </template>
 
 <script>
-
 export default {
-  
+
 }
 </script>
 
 <style>
+
 </style>
