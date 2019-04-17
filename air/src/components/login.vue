@@ -3,11 +3,11 @@
     <img alt="Vue logo" src="../assets/sandstorm.png">
     <h3>아이디</h3>
       <div class="w-25 p-3 mb-1" style="margin-left:37%"> 
-        <b-form-input placeholder="Enter input" type="text" id="username" v-model="username"></b-form-input>
+        <b-form-input placeholder="E-mail Enter plz" type="text" id="username" v-model="username"></b-form-input>
       </div>
     <h3>패스워드</h3>
       <div class="w-25 p-3 mb-1" style="margin-left:37%"> 
-        <b-form-input sm="9" placeholder="Enter password" type="password" id="password" v-model="password"></b-form-input>
+        <b-form-input sm="9" placeholder="password Enter plz" type="password" id="password" v-model="password"></b-form-input>
       </div>
     <div>
     <!-- Modal Component -->
